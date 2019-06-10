@@ -1,5 +1,5 @@
 {
-    "name": "lspbupt/yii2-jpush",
+    "name": "liyifei/yii2-jpush",
     "description": "a jpush encapsulation for yii2",
     "keywords": ["yii2", "extension", "jpush"],
     "license": "MIT",
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "jpush/jpush": "v3.3.8" 
+        "jpush/jpush": "*"
     },
     "autoload": {
         "psr-4": {
