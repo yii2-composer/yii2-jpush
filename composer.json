@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "yiisoft/yii2": "*",
         "jpush/jpush": "*"
     },
     "autoload": {
