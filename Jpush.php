@@ -30,7 +30,7 @@ class Jpush extends Component
         if (empty($this->app_key) || empty($this->app_secret)) {
             throw new InvalidConfigException("app_key和app_secret必须设置");
         }
-        $this->jpush = new Client($this->app_key, $this->app_secret, $this->logFile);
+        $this->jpush = new Client($this->app_key, $this->app_secret, $this->logFile, $this->retry);
     }
 
     public function __call($method, $args = [])
