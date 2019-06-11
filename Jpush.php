@@ -15,6 +15,8 @@ class Jpush extends Component
 
     public $logFile = Config::DEFAULT_LOG_FILE;
 
+    public $retry = Config::DEFAULT_MAX_RETRY_TIMES;
+
     private $jpush;
 
     /**
